@@ -5,7 +5,7 @@ Team Members
 - Mia Miletić - [dolouress]
 - Anja Pijak - [anjapijak]
 - Kristina Đukić - [kristina-djukic]
-- Ana Nikolić - Ana63250469
+- Ana Nikolić - [Ana63250469]
 
 Starting Point - Paper: Jadhav, V., et al. (2024). Collective responses of flocking sheep (Ovis aries) to a herding dog (border collie) - https://doi.org/10.1038/s42003-024-07245-8
 
@@ -26,7 +26,12 @@ Milestone 2 - Reproduction and extension
 - Define and implement an extension to the model.
 - Develop initial experiments and visualizations.
 
+Our initial plan for the extension is to investigate how the direction from which the herding dog approaches the flock affects the sheep’s collective behaviour. We could test approaches from behind, from the front, from the side, and diagonally, and compare their effects on flock cohesion, movement direction, polarization, and the propagation of directional information. This relates to the original paper’s investigation of the relationship between the dog’s position and the flock’s response.
+
+We also plan to investigate how differences between individual sheep affect leadership. The authors suggest that sheep at the front may be more reactive to the dog, although this has not been directly established. We could give sheep different levels of responsiveness to the dog or different reaction delays, then compare whether these differences influence which sheep become leaders and how stable leadership is over time.
+
+
 Milestone 3 - Experiments and conclusions
 - Compare original and modified simulation results.
 - Analyze collective behaviour using relevant metrics.
-- Prepare final documentation, results, and presentation.# collective-behaviour-groupD
+- Prepare final documentation, results, and presentation.
