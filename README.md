@@ -2,9 +2,9 @@ Collective Behaviour - Sheep Herding Simulation
 
 Team Members
 
-- Mia Miletić - [GitHub username]
-- Anja Pijak - [GitHub username]
-- Kristina Đukić - [GitHub username]
+- Mia Miletić - [dolouress]
+- Anja Pijak - [anjapijak]
+- Kristina Đukić - [kristina-djukic]
 - Ana Nikolić - Ana63250469
 
 Starting Point - Paper: Jadhav, V., et al. (2024). Collective responses of flocking sheep (Ovis aries) to a herding dog (border collie) - https://doi.org/10.1038/s42003-024-07245-8
