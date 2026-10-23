@@ -26,9 +26,10 @@ Milestone 2 - Reproduction and extension
 - Define and implement an extension to the model.
 - Develop initial experiments and visualizations.
 
-Our initial plan for the extension is to investigate how the direction from which the herding dog approaches the flock affects the sheep’s collective behaviour. We could test approaches from behind, from the front, from the side, and diagonally, and compare their effects on flock cohesion, movement direction, polarization, and the propagation of directional information. This relates to the original paper’s investigation of the relationship between the dog’s position and the flock’s response.
-
-We also plan to investigate how differences between individual sheep affect leadership. The authors suggest that sheep at the front may be more reactive to the dog, although this has not been directly established. We could give sheep different levels of responsiveness to the dog or different reaction delays, then compare whether these differences influence which sheep become leaders and how stable leadership is over time.
+Our initial ideas for the extensions are to:
+- investigate how the direction from which the herding dog approaches the flock affects the sheep’s collective behaviour. We could test approaches from behind, from the front, from the side, and diagonally, and compare their effects on flock cohesion, movement direction, polarization, and the propagation of directional information. This relates to the original paper’s investigation of the relationship between the dog’s position and the flock’s response.
+- investigate how differences between individual sheep affect leadership. The authors suggest that sheep at the front may be more reactive to the dog, although this has not been directly established. We could give sheep different levels of responsiveness to the dog or different reaction delays, then compare whether these differences influence which sheep become leaders and how stable leadership is over time.
+- investigate how using multiple herding dogs affects the flock’s collective behaviour. We could compare simulations with one dog and two dogs, testing different dog positions and approaches. We would examine whether multiple dogs improve flock cohesion and movement control or cause the flock to split, and whether coordination between the dogs makes a difference.
 
 
 Milestone 3 - Experiments and conclusions
