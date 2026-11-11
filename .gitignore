@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+*.npz
+*.mat
+
+.DS_Store
+Thumbs.db
