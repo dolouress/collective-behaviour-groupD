@@ -10,29 +10,28 @@ Team Members
 Starting Point - Paper: Jadhav, V., et al. (2024). Collective responses of flocking sheep (Ovis aries) to a herding dog (border collie) - https://doi.org/10.1038/s42003-024-07245-8
 
 Project Description:
-Our project will focus on reproducing and extending the agent-based sheep-herding model presented by Jadhav et al. (2024). The original model investigates the collective response of sheep to a herding dog, including interactions between individuals, flock cohesion, and directional coordination. We plan to recreate the simulation, analyze its behaviour, and compare selected results with those reported in the paper. Based on a review of related research, we will then introduce modifications to the original model to investigate how changes in individual behaviour or interaction rules influence the collective dynamics of the flock. Finally, we will evaluate the results through simulations and quantitative measurements.
+Our project will focus on reproducing and extending the agent-based sheep-herding model presented by Jadhav et al. (2024). The original model investigates the collective response of sheep to a herding dog, including interactions between individuals, flock cohesion, and directional coordination. We plan to recreate the simulation, analyze its behaviour, and compare selected results with those reported in the paper. Based on a review of related research, we will then introduce modifications to the original model to investigate how changes in individual behaviour or interaction rules influence the collective dynamics of the flock. Finally, we will evaluate the results through simulations and quantitative measurements. 
+
+For our extension, we decided to focus on differences in how individual sheep respond to the herding dog. We plan to use fuzzy logic to make their responses depend on the distance from the dog and to introduce different sensitivity levels between sheep. We will then compare the original model with the modified versions to see how these changes affect the flock's collective behaviour.
 
 Project Plan - Milestones:
 
-Milestone 1 - research and initial implementation
-- Review the starting paper and relevant literature.
-- Study the mathematical model and original implementation.
-- Set up the development environment.
-- Begin reproducing the original simulation.
+Milestone 1 - Research and initial implementation
+- Review the original paper and relevant literature on collective behaviour.
+- Recreate the original MATLAB model in Python and run baseline simulations.
+- Analyse polarisation, cohesion, and elongation, and compare Python and MATLAB results using dog-to-rearmost-sheep distance, lateral offset, and three directional angles.
+- Define the fuzzy-logic extension and prepare the first report.
 
-Milestone 2 - Reproduction and extension
-- Complete the baseline simulation.
-- Reproduce selected results from the original paper.
-- Define and implement an extension to the model.
-- Develop initial experiments and visualizations.
-
-Our initial ideas for the extensions are to:
-- investigate how the direction from which the herding dog approaches the flock affects the sheep’s collective behaviour. We could test approaches from behind, from the front, from the side, and diagonally, and compare their effects on flock cohesion, movement direction, polarization, and the propagation of directional information. This relates to the original paper’s investigation of the relationship between the dog’s position and the flock’s response.
-- investigate how differences between individual sheep affect leadership. The authors suggest that sheep at the front may be more reactive to the dog, although this has not been directly established. We could give sheep different levels of responsiveness to the dog or different reaction delays, then compare whether these differences influence which sheep become leaders and how stable leadership is over time.
-- investigate how using multiple herding dogs affects the flock’s collective behaviour. We could compare simulations with one dog and two dogs, testing different dog positions and approaches. We would examine whether multiple dogs improve flock cohesion and movement control or cause the flock to split, and whether coordination between the dogs makes a difference.
-
+Milestone 2 - Model verification and extension
+- Validate the Python reproduction by comparing the distributions of all eight metrics with the MATLAB model.
+- Implement fuzzy dog-avoidance responses with different sensitivity levels for individual sheep.
+- Test the original, homogeneous fuzzy, and heterogeneous fuzzy models, and define the evaluation methodology using repeated simulations.
+- Prepare the second report with implementation and verification details.
 
 Milestone 3 - Experiments and conclusions
-- Compare original and modified simulation results.
-- Analyze collective behaviour using relevant metrics.
-- Prepare final documentation, results, and presentation.
+- Run experiments comparing the original, homogeneous fuzzy, and heterogeneous fuzzy models using the eight metrics.
+- Investigate how individual sensitivity affects directional leadership and collective flock movement.
+- Analyse the results, compare them with the original research, and discuss limitations.
+- Prepare the final report, presentation, narrated simulation video, and GitHub documentation.
+
+Technology: Python, NumPy, MATLAB (reference implementation).
